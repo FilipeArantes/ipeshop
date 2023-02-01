@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.traco {
+    margin: 10px 0 0 50px;
+    width: 40px;
+}
+
+.logo {
+    margin-top: 10PX;
+    margin-left: 37.5%;
+}
+
+.sino {
+    cursor: pointer;
+    margin-left:18px ;
+    height: 30px;
+    width: 25px;
+}
+
+.engranagem {
+    cursor: pointer;
+    margin-left: 18px;
+    height: 32px;
+    width: 30px;
+}
+
+.rosto {
+    cursor: pointer;
+    margin-left: 18px;
+    height: 40px;
+    width: 40px;
+}
+
+.traco {
+    cursor: pointer;
+}
+
+.ladodireito {
+    margin-left: 32%;
+}
+.procurar {
+    margin-top: 15px;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search2 {
+    border-radius: 8px;
+    border: none;
+    background-color: #F3F1F6;
+    width: 40em;
+    font-size: 1.1vw;
+    height: 2em;
+    padding: 1em .5em;
+}
+
+.lupa {
+    position: relative;
+    top: 2px;
+    right: 20px;
+    height: 18px;
+}
+
+.banner {
+    display: flex;
+    background: linear-gradient(92.96deg, rgb(60, 2, 107) , rgb(79, 3, 179) );
+    margin: 25px 50px 0 50px;
+    height: 280px;
+    border-radius: 8px;
+}
+
+.texto {
+    width: 61%;
+    height: 280px;
+}
+
+.trinta {
+    color: #FF8429!important;   
+}
+
+.desconto {
+    color: #Fff;
+    font-size: 3vw;
+    margin: 25px 0 0 30px;
+}
+
+.mulher1 {
+    width: 480px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+}
+
+.mulher2 {
+    width: 380px;
+    height: 280px;
+}
+
+.texto2 {
+    color: #fff;
+    margin: 40px 0 0 30px;
+}
+
+.categorias {
+    margin: 25px 50px 0 50px;
+    height: 300px;
+    width: 92.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.categoria {
+    width: 100vw;
+}
+
+.celular, .fone, .roupaf, .roupam {
+    border-radius: 8px;
+    background: linear-gradient(0.40turn, #4400A5 34.9%, #FF8429 100%);
+    width: 22%;
+    height: 55%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h3 {
+    color: #fff;
+    margin-right: 15px;
+}
+
+.celular1 {
+    margin-top: 16px;
+    margin-left: 10px;
+    height: 149px;
+    width: 120px;
+}
+
+.headphone{
+    width: 110px;
+}
+
+.fone1 {
+    margin-top: 16px;
+    margin-left: 10px;
+    height: 149px;
+    width: 130px;  
+}
+
+.roupafeminina {
+    margin-top: 25px;
+    margin-left: 10px;
+    height: 140px;
+    width: 140px;
+}
+
+.roupamasculina {
+    margin-top: 12px;
+    height: 153px;
+    width: 145px;
+}
+
+.destaques {
+    width: 92.5%;
+    margin: 25px 50px 0 50px;
+    height: 600px;
+    display: flex;
+    align-content:flex-start ;
+    justify-content: space-between;
+}
+
+.destaque {
+    width: 100vw;
+    margin-bottom: 45px;
+}
+
+.iphone, .relogio, .note {
+    background-color: #F5F5F5;
+    width: 380px;
+    border-radius: 5px;
+    height: 65%;
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+}
+
+.partedebaixo {
+    color: #Fff;
+    display: flex;
+    width: 380px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px ;
+    background: #4400A5;
+    height: 100px;
+}
+
+.text {
+    margin: 15px;
+}
+
+.gb {
+    cursor: pointer;
+    font-size: 2.2vw;
+}
+
+.valores {
+    color: #FF8429 !important;
+    margin-top: px;
+    font-size: 1.7vw;
+}
+
+.fotoiphone {
+    cursor: pointer;
+    width: 424px;
+    height: 300px;
+}
+
+.fotonote {
+    cursor: pointer;
+    width: 424px;
+    height: 300px;
+}
+
+.fotorelogio {
+    cursor: pointer;
+    width: 424px;
+    height: 300px;
+}
+
+.coracao {cursor: pointer;
+    width: 45px;
+    height: 38px;
+    position: relative;
+    left: 18%;
+    top: 10%;
+}
+
+.coracao1 {
+    cursor: pointer;
+    position: relative;
+    left: 7.5%;
+    top: 10%;
+    width: 45px;
+    height: 38px;
+}
+
+.coracao2 {
+    cursor: pointer;
+    position: relative;
+    left: 24.8%;
+    top: 10%;
+    width: 45px;
+    height: 38px;
+}
+
+.rodape {
+    color: grey;
+    display: flex;
+    width: 92.5%;
+    height: 350px;
+    margin: 0 50px 0 50px;
+}
+
+.maisbuscado {
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: 20px;
+}
+.ladodireitoborda {
+    width: 515px;
+    margin-right:10px ;
+    height: 18px;
+    border-bottom: 1px solid grey;
+}
+
+.ladodesquerdoborda {
+    width: 515px;
+    margin-left:10px ;
+    height: 18px;
+    border-bottom: 1px solid grey;
+}
+
+.produtos {
+    font-weight: lighter ;
+    font-size: 20px;
+    margin-top: 25px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between  ;
+}
+
+.coluna1 , .coluna2, .coluna3, .coluna4, .coluna5 {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    color: #949090;
+    text-decoration: none;
+}
+
+.rodapefinal {
+    display: flex;
+    background-color: #000;
+    width: 100%;
+    height: 140px;
+}
+
+.rodapeesquerdo {
+    width: 70%;
+    display: flex;
+}
+
+.rodapedireito {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.primeirotexto {
+    margin-top: 16px;
+    margin-left: 20px;
+    color: #fff;
+    width: 30%;
+}
+
+.fontediferente {
+    font-weight: 400;
+}
+
+.segundotexto {
+    margin-top: 16px;
+    color: #fff;
+    width: 30%;
+}
+
+.terceirotexto {
+    margin-top: 16px;
+    color: #fff;
+    width: 30%;
+}

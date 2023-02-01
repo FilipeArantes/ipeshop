@@ -1,0 +1,342 @@
+* {
+    max-width: 100vw;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: auto;
+}
+
+.fundobranco {
+    background-color: #fff;
+    height: 100vh;
+    width: 100vw;
+}
+
+.cabecalho {
+    align-items: center;
+    display: flex;
+    height: 70px;
+    padding: 0 4%;
+    margin-bottom: 30px;
+}
+
+.nomepag {
+    margin-top: 16px;
+}
+
+.criar {
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+    margin-top: 16px;
+    font-size: 1.6vw;
+    margin-left: 120px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.criar:hover {
+    color: #808090;
+}
+
+.login {
+    cursor: pointer;
+    margin-top: 16px;
+    font-size: 1.6vw;
+    margin-left: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login:hover {
+    color: #808090;
+}
+
+.corpo {
+    border: 1px red;
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+}
+
+.fazer:hover {
+    color: #f89143;
+}
+
+.criarconta {
+    height: 100%;
+    width: 50vw;
+    display: inline-block;
+    flex-direction: column;
+}
+
+.conta {
+    height: 82vh;
+    margin: 20px 50px 20px 58px;
+    border: red 1px;
+}
+
+.novaconta {
+    font-size: 4.2vw;
+}
+
+.jatem {
+    margin-left: 3px;
+    font-size: 1.9vw;
+}
+
+.nome {
+    background-color: #F3F1F6;
+    border: 1px solid #F3F1F6;
+    border-radius: 10px;
+    padding: .5vw;
+    width: 12em;
+    margin-right: 8px;
+}
+
+.sobrenome {
+    background-color: #F3F1F6;
+    border: 1px solid #F3F1F6;
+    border-radius: 10px;
+    padding: .5vw;
+    width: 12em;
+}
+
+.name1 {
+    margin-left: 2px;
+}
+
+.email {
+    height: 35px;
+    background-color: #F3F1F6;
+    border: none;
+    border-radius: 10px;
+    padding: .5vw;
+    width: 24.5em;
+}
+
+.password {
+    background-color: #F3F1F6;
+    border: 1px solid #F3F1F6;
+    border-radius: 10px;
+    padding: .5vw;
+    width: 24.5em;
+}
+
+.input-group {
+    margin: 30px 0 0 3px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ultimo {
+    margin-top: 30px;
+}
+
+.email {
+    top: 30px;
+    right: 50px;
+    position: relative;
+}
+
+.parte-baixo {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14px;
+}
+
+.fazer {
+    cursor: pointer;
+    color: #FF8429;
+}
+
+.imagem {
+    border: 1px red;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    width: 50vw;
+    padding-right: 10%;
+}
+
+.people {
+    height: 600px;
+    width: 530px;
+}
+
+.continuar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 20%;
+    height: 70px;
+    left: 4.5%;
+    width: 328px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(0.40turn, #4400A5 34.9%, #FF8429 100%);
+    height: 70px;
+    width: 326px;
+}
+
+.continuar:hover {
+    background: linear-gradient(0.40turn, #5003bdb6 30.9%, #ff8629e0 90%);
+}
+
+a {
+    padding: 17px 0 0 100px;
+    height: 70px;
+    width: 328px;
+    font-size: 1.7vw;
+    color: #fff;
+    text-decoration: none;
+}
+
+.continue {
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(102.65deg, #4400A5 34.9%, #FF8429 100%);;
+    height: 70px;
+    width: 326px;
+}
+
+.continue:hover {
+    background: linear-gradient(0.40turn, #6928c4, #f89143)
+}
+
+@media screen and (max-width:1030){
+    .continuar {
+        left: 5.8%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .fundobranco {
+        width: 880px;
+    }
+
+    .people {
+        height: fit-content;
+        width: 430px;
+    }
+
+    .password {
+        width: 276px;
+    }
+
+    .nome,
+    .sobrenome {
+        width: 10em;
+    }
+
+    .criar,
+    .login {
+        font-size: 2vw;
+    }
+    .email {
+        width: 276px;
+    }
+
+    body {
+        width: 100vw;
+        height: auto;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:775px) {
+    body {
+        overflow: hidden;
+        width: 100vw;
+        height: auto;
+    }
+
+    .input-group {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .corpo {
+        justify-content: center;
+    }
+
+    .ultimo {
+        position: relative;
+        bottom: 30px;
+    }
+
+    .criarconta {
+        margin-top: 25px;
+    }
+
+    .password {
+        padding: .9vw;
+        width: 16.8em;
+    }
+
+    .email {
+        width: 16.8em;
+        top: 1px;
+        left: 0.2px;
+        position: relative;
+    }
+
+    a {
+        font-size: 2.7vw;
+    }
+
+    .nome {
+        padding: .9vw;
+    }
+
+    .sobrenome {
+        padding: .9vw;
+    }
+
+    * {
+        flex-wrap: wrap;
+    }
+
+    .novaconta {
+        font-size: 3vw;
+    }
+
+    .jatem {
+        font-size: 2vw;
+    }
+
+    .imagem {
+        display: none;
+    }
+
+    .nome,
+    .sobrenome {
+        width: 8em;
+    }
+
+    .criar,
+    .login {
+        font-size: 2.8vw;
+    }
+
+    .continuar {
+        left: 25%;
+        padding: 4px 0 0 15px;
+    }
+
+    .continue {
+        width: 20em;
+    }
+}
